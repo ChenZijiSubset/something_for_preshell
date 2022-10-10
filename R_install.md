@@ -4,17 +4,11 @@ wget -c https://archive.linux.duke.edu/cran/src/base/R-4/R-4.2.1.tar.gz
 tar -zxvf R-4.2.1.tar.gz
 cd R-4.2.1/
 ./configure
-yum install gcc-gfortran
 ```
 
 if you choose ```./configure --with-x=no```
 write here first about the software relied.
 gcc-gfortran, gcc-c++, readline-devel 
-
-
-```
-configure: error: No Fortran compiler found
-```
 
 we should install a fortran compiler, because nearly no one use fortran now, I just choose the source of YUM.
 
